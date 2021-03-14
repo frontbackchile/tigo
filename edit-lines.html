@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>TIGO</title>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=75735" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=75735" type="text/javascript"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__wrap">
+        <div class="header__logo"><a href="index.html"><img src="img/logos/logo-tigo.png"></a></div>
+        <div class="header__nav">
+          <nav>
+            <ul>
+              <li class="header__nav__menu">Menú<span class="fa fa-angle-right"></span></li>
+              <li class="header__nav__user"><a href="#">Daniel Gilberto Garcia Valenzuela</a></li>
+              <li><a href="destination-control.html">Control destino</a></li>
+              <li><a href="edit-lines.html">Editar lineas</a></li>
+              <li><a href="call-history.html">Historico de llamadas</a></li>
+              <li><a href="shedules-enabled.html">Horarios habilitados</a></li>
+              <li><a href="notifications.html">Notificaciones</a></li>
+              <li><a href="#">Salir</a></li>
+              <!--li
+              a.header__nav__submenu(href="#") Lineas asignadas
+              ul
+              	li.current
+              		a(href="#") +502 30373709
+              			span 1
+              	li
+              		a(href="#") +502 30373758
+              			span 2
+              	li
+              		a(href="#") +502 30373747
+              			span 3
+              	li
+              		a(href="#") +502 30373702
+              			span 4
+              	li
+              		a(href="#") +502 30373776
+              			span 5
+              
+              -->
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <div class="header__ham"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+    <div id="sections">
+      <div class="contener">
+        <div class="card card--edit dscroll">
+          <div class="card__row">
+            <div class="card__link"><a href="#">Cancelar</a></div>
+            <div class="card__title">Editar perfil</div>
+            <div class="card__link"><a href="#">LISTO	</a></div>
+          </div>
+          <div class="card__body">
+            <div class="card__avatar">
+              <div class="card__avatar__circle"><img src="img/uploads/avatar.png"></div>
+            </div>
+            <div class="card__button"><a href="#" class="btn">Cambiar foto</a></div>
+          </div>
+        </div>
+        <div class="card card--destiny dscroll">
+          <div class="card__body">
+            <div class="card__title">Editar Lineas<span class="fa fa-mobile"></span></div>
+          </div>
+          <form>
+            <div class="form__line">
+              <div class="form__number form__number--current">+502 30373709<span>1</span></div>
+              <div class="form__element">
+                <div class="form__title">Numero corto:</div>
+                <div class="form__input">
+                  <input type="number" name="number" value="2240">
+                </div>
+              </div>
+              <div class="form__element">
+                <div class="form__title">Alias:</div>
+                <div class="form__input">
+                  <input type="text" name="alias" value="Movil 1">
+                </div>
+              </div>
+            </div>
+            <div class="form__line">
+              <div class="form__number">+502 31286838<span>2</span></div>
+              <div class="form__element">
+                <div class="form__title">Numero corto: 	</div>
+                <div class="form__input">
+                  <input type="number" name="number" value="2250">
+                </div>
+              </div>
+              <div class="form__element">
+                <div class="form__title">Alias:</div>
+                <div class="form__input">
+                  <input type="text" name="alias" value="Movil 2">
+                </div>
+              </div>
+            </div>
+            <div class="form__line">
+              <div class="form__number">+502 32270077<span>3</span></div>
+              <div class="form__element">
+                <div class="form__title">Numero corto: </div>
+                <div class="form__input">
+                  <input type="number" name="number" value="2290">
+                </div>
+              </div>
+              <div class="form__element">
+                <div class="form__title">Alias:</div>
+                <div class="form__input">
+                  <input type="text" name="alias" value="Movil 3">
+                </div>
+              </div>
+            </div>
+            <div class="form__line">
+              <div class="form__number">+502 32270092<span>4</span></div>
+              <div class="form__element">
+                <div class="form__title">Numero corto: 	</div>
+                <div class="form__input">
+                  <input type="number" name="number" value="2270">
+                </div>
+              </div>
+              <div class="form__element">
+                <div class="form__title">Alias:</div>
+                <div class="form__input">
+                  <input type="text" name="alias" value="Movil 4">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="arrow">
+          <div data-goto=".contener" class="arrow__back"><span class="fa fa-angle-up"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__logo"><a href="#"><img src="img/logos/logo_tigo-footer.png"></a></div>
+      <div class="footer__description">Todos los derechos reservados.			</div>
+    </div>
+  </body>
+</html>
